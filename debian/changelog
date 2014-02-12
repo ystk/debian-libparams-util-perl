@@ -1,3 +1,24 @@
+libparams-util-perl (1.07-1) unstable; urgency=low
+
+  * New Upstream Version
+  * Switch to dpkg-source 3.0 (quilt) format
+  * d/control: added homepage field
+     - bumped standards version
+     - added DM Upload Allow
+  * d/copyright: switched to DEP5
+  * d/rules: reduced
+
+ -- Jonas Genannt <jonas.genannt@capi2name.de>  Sat, 24 Mar 2012 18:09:48 +0100
+
+libparams-util-perl (1.04-1) unstable; urgency=low
+
+  * new upstream version
+  * bumped debhelper compat
+  * bumped standards version
+  * debian/rules: changed PREFIX to DESTDIR
+
+ -- Jonas Genannt <jonas.genannt@capi2name.de>  Sat, 18 Jun 2011 12:02:39 +0200
+
 libparams-util-perl (1.00-1) unstable; urgency=low
 
   * New Upstream Release (Closes: #537296)

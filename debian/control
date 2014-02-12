@@ -1,9 +1,11 @@
 Source: libparams-util-perl
 Section: perl
 Priority: optional
-Build-Depends: debhelper (>= 7), perl (>= 5.8.0-7), libtest-pod-perl
+Build-Depends: debhelper (>= 8), perl (>= 5.8.0-7), libtest-pod-perl
 Maintainer: Jonas Genannt <jonas.genannt@capi2name.de>
-Standards-Version: 3.8.3
+Homepage: http://search.cpan.org/dist/Params-Util/
+DM-Upload-Allowed: yes
+Standards-Version: 3.9.3
 
 Package: libparams-util-perl
 Architecture: any

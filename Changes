@@ -1,5 +1,36 @@
 Revision history for Perl extension Params-Util
 
+1.07 Sun 11 Mar 2012
+	- Disable XS version on cygwin as it shows bizarre behaviour
+	  that breaks form when using Params::Util XS verwion.
+
+1.06 Thu 1 Mar 2012
+	- Remove the need for the sanexs.c file by generating into a temp
+	  file instead.
+
+1.05 Thu 1 Mar 2012
+	- Restore compatibility with pre-5.8.8 Perls without a working
+	  compiler available install time (RIBASUSHI)
+
+1.04 Wed 20 Apr 2011
+	- Fixed #67522 have_compiler returns
+
+1.03 Mon 22 Nov 2010
+	- No CPAN Testers failures, moving to production release
+
+1.02_01 Thu 16 Sep 2010
+	- Trying for a much more advanced can_xs() alternative to can_cc()
+	  to deal with the situation where a host has a superficially
+	  working compiler, but completely screwed up headers.
+	- Adding some fallback strategies to deal with cases where these
+	  same machines don't support configure_requires.
+	- Adopt Chorny's eumm-upgrade style for the Makefile.PL.
+	- Allow the Makefile.PL to build it's own META.yml now.
+
+1.01 Thu 18 Mar 2010
+        - Fixed can_cc() bug in Makefile.PL where it was checking an existence
+          of PATH directory rather than executables. RT#55668 (DGOLDEN, MIYAGAWA)
+
 1.00 Sun 31 May 2009
 	- Now all known XS bugs are worked out, I've removed
 	  the experimental flags and set that as the first 1+ release.
