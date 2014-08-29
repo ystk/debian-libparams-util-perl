@@ -1,13 +1,13 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Contact: Adam Kennedy <adamk@cpan.org>
-Source: http://search.cpan.org/dist/Params-Util/
+Source: https://metacpan.org/release/Params-Util
 
 Files: *
 Copyright: 2005-2012 Adam Kennedy <adamk@cpan.org>
 License: Artistic or GPL-1+
 
 Files: debian/*
-Copyright: 2011-2012 Jonas Genannt <jonas.genannt@capi2name.de>
+Copyright: 2011-2014 Jonas Genannt <jonas.genannt@capi2name.de>
 License: Artistic or GPL-1+
 
 License: Artistic

@@ -1,3 +1,18 @@
+libparams-util-perl (1.07-2) unstable; urgency=low
+
+  * switched to MetaCpan URLs
+  * d/control:
+   - removed dm-upload allow header
+   - moved package to Perl group
+   - bumped standards version
+   - added Vcs headers
+   - removed double whitespace
+   - removed version depend on perl
+  * d/copyright: updated year
+  * bumped compat level to 9 (hardening)
+
+ -- Jonas Genannt <jonas.genannt@capi2name.de>  Mon, 28 Jul 2014 17:09:39 +0200
+
 libparams-util-perl (1.07-1) unstable; urgency=low
 
   * New Upstream Version
